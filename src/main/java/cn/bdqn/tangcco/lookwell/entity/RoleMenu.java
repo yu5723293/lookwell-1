@@ -62,4 +62,16 @@ public class RoleMenu {
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
     }
+
+    @Override
+    public String toString() {
+        return "RoleMenu{" +
+                "rolmenId=" + rolmenId +
+                ", roleId=" + roleId +
+                ", menuId=" + menuId +
+                ", rolmenDesc='" + rolmenDesc + '\'' +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                '}';
+    }
 }

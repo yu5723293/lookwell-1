@@ -66,4 +66,18 @@ public class RoleUser {
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
     }
+
+    @Override
+    public String toString() {
+        return "RoleUser{" +
+                "roluseId=" + roluseId +
+                ", userId=" + userId +
+                ", tbuser=" + tbuser +
+                ", roleId=" + roleId +
+                ", role=" + role +
+                ", roluseDesc='" + roluseDesc + '\'' +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                '}';
+    }
 }

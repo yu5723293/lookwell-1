@@ -15,6 +15,9 @@ public class Tbuser {
 
     private Date updateTime;
 
+    public Tbuser() {
+    }
+
     public Integer getUserId() {
         return userId;
     }

@@ -62,4 +62,16 @@ public class Role {
     public void setRoleStatus(Integer roleStatus) {
         this.roleStatus = roleStatus;
     }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "roleId=" + roleId +
+                ", roleName='" + roleName + '\'' +
+                ", roleLevel=" + roleLevel +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                ", roleStatus=" + roleStatus +
+                '}';
+    }
 }

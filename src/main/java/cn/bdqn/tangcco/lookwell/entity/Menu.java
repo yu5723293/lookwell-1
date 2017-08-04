@@ -62,4 +62,16 @@ public class Menu {
     public void setParentId(Integer parentId) {
         this.parentId = parentId;
     }
+
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "menuId=" + menuId +
+                ", menuName='" + menuName + '\'' +
+                ", menuUrl='" + menuUrl + '\'' +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                ", parentId=" + parentId +
+                '}';
+    }
 }
